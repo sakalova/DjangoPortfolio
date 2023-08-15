@@ -4,20 +4,16 @@
 
 {% block content %}
 
-<h2 style="text-align:center">About me</h2>
 
-<div class="row">
+<!-- CSS link -->
+<link rel="stylesheet" href="{% static 'about/css/about.css' %}">
 
-  <div class="column">
-    <div class="card">
-      <img src="{% static about.image %}" alt="My avatar" style="width:20%">
-      <div class="container">
-        <h2>Hi there!</h2>
-        <p>{{ about.description }}</p>
-      </div>
-    </div>
+<div>
+  <img src="{% static about.image %}" alt="My avatar" class="img">
+  <div>
+    <h2>Hi there!</h2>
+    <p>{{ about.description }}</p>
   </div>
-
 </div>
 
 {% endblock %}

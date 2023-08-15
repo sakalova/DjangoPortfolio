@@ -1,0 +1,18 @@
+h2 {
+    text-align:center;
+}
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+/* My avatar image styles */
+.img {
+  border-radius: 8px;
+  max-width: 20%;
+  height: auto;
+  position: absolute;
+}
